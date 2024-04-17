@@ -1,0 +1,44 @@
+/* app.component.css */
+.books-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.books-container p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.books-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.books-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.books-container button:hover {
+  background-color: #0056b3;
+}
+
+.books-container h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.books-container h3 b {
+  margin-right: 10px;
+}
